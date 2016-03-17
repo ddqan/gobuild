@@ -35,3 +35,6 @@ if [[ ${isInstall} == "install" ]]; then
 fi
 
 echo "$successMsg"
+
+# can be removed or change for suitable
+echo "godemo hello"

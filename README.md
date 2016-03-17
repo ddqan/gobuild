@@ -10,10 +10,20 @@ This is shell script file. When we want to build/install our golang code, just r
 
 Example:
 
-```
+```bash
 cd $GOPATH/src/godemo
 ./build.sh
 ```
+
+Or ```./build.sh install``` if you want to install your GO application
+
+Result output:
+
+```bash
+Done. All your golang code are re-built. CLI Example:
+godemo hello
+```
+
 
 # Cheers
 
