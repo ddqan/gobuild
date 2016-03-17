@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 doCommand() {
     typeset cmnd="$*"
     check=$($cmnd)
