@@ -1,6 +1,8 @@
 # What is this?
 This is shell script file. When we want to build/install our golang code, just run this, it's easy to use and can see what we are missing
 
+_Now we don't need to remember format your GO code, remove unused imports...anymore. This script will do it for you!_
+
 # How to use?
 
 * Put this file (build.sh) into your GO code root folder
@@ -27,4 +29,4 @@ godemo hello
 
 # Cheers
 
-I'll be happy if you like to use this, welcome any comment and contribute on it.
+_I'll be happy if you like to use this, welcome any comment and contribute on it._
