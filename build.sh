@@ -27,14 +27,14 @@ doCommand $cmd
 cmd="go build"
 doCommand $cmd
 
-successMsg="$(tput setaf 2)Done. All your golang code are re-built. CLI Example:"
+successMsg="$(tput setaf 2)Done. All your golang code are re-built."
 if [[ ${isInstall} == "install" ]]; then
     cmd="go install"
     doCommand $cmd
-    successMsg="$(tput setaf 2)Done. All your golang code are re-built and installed. CLI Example:"
+    successMsg="$(tput setaf 2)Done. All your golang code are re-built and installed."
 fi
 
 echo "$successMsg"
 
 # can be removed or change for suitable
-echo "godemo hello"
+#echo "godemo hello"
